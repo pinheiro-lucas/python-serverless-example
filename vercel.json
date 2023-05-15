@@ -10,5 +10,11 @@
       "src": "/(.*)",
       "dest": "api/"
     }
+  ],
+  "redirects": [
+    {
+    "source": "/",
+    "destination": "/api"
+    }
   ]
 }
