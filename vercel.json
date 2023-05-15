@@ -8,13 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/"
-    }
-  ],
-  "redirects": [
-    {
-    "source": "/",
-    "destination": "/api"
+      "dest": "api/main.py"
     }
   ]
 }
